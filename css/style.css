@@ -1,0 +1,1130 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{ 
+    width: 100%; 
+    margin:0
+}
+
+h1{
+    font-size:70px;
+    color:#fff;
+}
+
+h2{
+    font-size: 60px;
+    background-color: black;
+    color: #fff;
+    display: inline-block;
+    font-family: DINNextLTPro-BoldCondensed;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px -7px 0px 9px #000000; 
+    box-shadow: 0px -7px 0px 9px #000000;  
+}
+
+
+        @media only screen and (max-width: 1024px) {
+            h2{
+                font-size: 40px;  
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            h2{
+                font-size: 35px;  
+                line-height: 38px;
+                -webkit-box-shadow: 0px -3px 0px 5px #000000; 
+                box-shadow: 0px -3px 0px 5px #000000; 
+            }
+        }
+
+.h2-heading-container{
+    margin-bottom: 70px;
+    padding-top: 100px;
+}
+
+h3{
+    text-transform: uppercase;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    font-family: DINNextLTPro-BoldCondensed;
+     -webkit-box-shadow: 0px -5px 0px 7px #ffffff; 
+    box-shadow: 0px -5px 0px 7px #ffffff;  
+    line-height: 44px;
+}
+
+        @media only screen and (max-width: 1024px) {
+            h3{
+                font-size: 35px;
+                line-height: 39px;  
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            h3{
+                font-size: 25px;  
+                line-height: 29px;
+                -webkit-box-shadow: 0px -3px 0px 5px #ffffff; 
+                box-shadow: 0px -3px 0px 5px #ffffff;  
+            }
+        }
+
+h4{
+    font-family: Rockness;
+    color:#fff;
+    font-size:50px;
+    font-weight: 200;
+}
+
+        @media only screen and (max-width: 1024px) {
+            h4{
+                font-size: 30px;
+                line-height: 39px;  
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            h4{
+                font-size: 28px;  
+                line-height: 35px;
+            }
+        }
+
+p{
+    font-family: Avenir;
+    font-size: 16px;
+}
+
+
+/* --------------- Iframe CSS --------------- */
+
+
+.iframe-box-reports{
+    width:100%; 
+    z-index:-9; 
+    margin-top:-50px; 
+    height:65vh
+}
+
+.iframe-box-reports iframe{
+   height:850px;
+   width: 100%;
+}
+
+
+        @media only screen and (max-width: 1680px) {
+            .iframe-box-reports iframe{
+            height:750px;
+            }
+        }
+
+        @media only screen and (max-width: 1440px) {
+            .iframe-box-reports iframe{
+            height:700px;
+            }
+        }
+
+        @media only screen and (max-width: 1366px) {
+            .iframe-box-reports iframe{
+            height:620px;
+            }
+        }
+
+
+/* Fonts */
+
+@font-face {
+    font-family: DINNextLTPro-BoldCondensed;
+    src: url('/fonts/DINNextLTPro-BoldCondensed.otf');
+  }
+
+  @font-face {
+    font-family: Avenir;
+    src: url('/fonts/Avenir.ttc');
+  }
+
+  @font-face {
+    font-family: Rockness;
+    src: url('/fonts/Rockness.otf');
+  }
+
+
+
+/* ------------------------- FOOTER --------------------------*/
+
+.footer{
+    margin-top: 100px;
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+}
+
+.footer img{
+    width: 200px;
+    padding-top:25px
+}
+
+.footer p{
+    color:#fff;
+    float: right;
+    margin-top: 35px;
+    padding-right: 20px;
+    z-index: 9;
+}
+
+@media only screen and (max-width: 500px) {
+    .footer{
+        margin-top: 100px;
+        background-color: #000;
+        width: 100%;
+        height: 150px;
+    }
+
+    .footer p{
+        float: left;
+        padding-left: 20px;
+        font-size:14px
+    }
+}
+/* ------------------- LOGIN PAGE CSS ------------------- */
+
+    .login-page-wrapper{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+
+    
+
+    .login-left-col{
+        width: 35%;
+        padding:50px 50px;
+    }
+
+    .login-left-col h3{
+        font-size:47px
+        }
+
+    .login-left-col p{
+         margin-top:-45px;
+         margin-bottom:50px;
+        font-size:14px
+        }
+
+
+            @media only screen and (max-width: 1024px) {
+                .login-left-col{
+                    background-image: url('/img/login-background-img.jpg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 100%;
+                    padding:20px 20px;
+                    position: relative;
+                }
+            }
+        
+
+    .login-form-container{
+        width: 350px;
+        position:absolute;
+    }
+
+            @media only screen and (max-width: 1024px) {
+                .login-form-container{
+                    width: 100%;
+                    position: relative;
+                    margin: 0 auto;
+                    margin-right: 20px;
+                }
+            }
+
+
+    .login-mark1-logo-container{
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+            @media only screen and (max-width: 1370px) {
+                .login-mark1-logo-container{
+                    margin-bottom: -20px;
+                    position: relative;
+                }
+            }
+
+
+
+    .login-mark1-logo-container img{
+       width: 100px;
+    }
+
+            @media only screen and (max-width: 1024px) {
+                .login-mark1-logo-container img{
+                    width: 60px;
+                }
+            }
+
+
+
+    .login-mark1-logo-container h3{
+        margin-bottom: 50px;
+        font-size: 28px;
+    }
+
+            @media only screen and (max-width: 1024px) {
+                .login-mark1-logo-container h3{
+                    color: #fff !important;
+                    background-color: transparent !important;
+                    -webkit-box-shadow: 0px -5px 0px 7px #ffffff00; 
+                    box-shadow: 0px -5px 0px 7px #ffffff00;  
+                }
+            }
+
+    .login-btn{
+        background-color:#000;
+        border:none;
+        color:#fff;
+        font-size:20px;
+        padding:10px 20px 10px 20px;
+        margin-top:20px;
+
+    }
+
+    .form-group{
+        margin-bottom:20px;
+    }
+    .form-group label{
+        font-size:18px; 
+        font-family: Avenir;
+        font-weight:bold
+    }
+
+    .form-group input{
+        width:350px;
+    }
+
+            @media only screen and (max-width: 500px) {
+                .form-group input{
+                    width:100%;
+                }
+            }
+
+        
+    .login-right-col{
+        width: 65%;
+        background-image: url('/img/login-background-img.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+        @media only screen and (max-width: 1024px) {
+            .login-right-col{
+                display: none;
+            }
+        }
+
+
+
+    .login-page-mobile-background{
+        background-color:#fff;
+        padding:0px;
+        width: 350px;
+        position: relative;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .login-page-mobile-background{
+            background-color:#fff;
+            padding:20px;
+            width:400px;
+            margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .login-page-mobile-background{
+            background-color:#fff;
+            padding:20px;
+            width: 90%;
+            position: relative;
+            margin: 0 auto;
+        }
+    }
+
+
+/* ------------------- LOGIN PAGE CSS ------------------- */
+   
+
+
+
+
+
+
+
+
+
+
+/* Loading page */
+
+#loading-screen{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 99900 !important;
+    background-color: rgb(255, 255, 255);
+
+}
+
+    .inner-loading-cont{
+        width: 500px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20vh;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+
+
+
+/* ------------------------------- CLIENT PAGE CSS -------------------- */
+
+
+/* SIGN OUT BTN */
+
+
+.signout-container{
+    width: 50%;
+    text-align: right;
+    padding: 30px 20px 10px 0px;
+}
+
+.signout-container a{
+    background-color:#2abeb7;
+    padding:10px;
+    color:#fff;
+    font-size:14px;
+    text-decoration: none;
+    font-family: Avenir;
+    font-weight: bold;  
+    cursor: pointer;  
+}
+
+    @media only screen and (max-width: 1024px) {
+        .signout-container a{
+            font-size:12px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .signout-container a{
+            font-size:10px;
+        }
+    }
+
+.signout-container a:hover{
+    background-color:#4dcac4;
+   
+}
+
+
+
+
+
+/* Navigation - GLOBAL */
+
+.nav-inner{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: 0px;
+    z-index: 999 !important;
+}
+
+    @media only screen and (max-width: 1024px) {
+        .nav-inner{
+            position: absolute;
+        }
+    }
+
+.logo-container{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+}
+
+.logo-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo-container h4{
+    margin-top:20px;
+    padding-left:30px
+}
+
+
+    @media only screen and (max-width: 1024px) {
+        .logo-container img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .logo-container img{
+            width: 60px;
+            height: 60px;
+        }
+
+        .logo-container h4{
+            margin-top:10px;
+            padding-left:0px
+        }
+
+        .logo-container{
+            width: 50%;
+            padding: 20px;
+            display: inline-block;
+        }
+        
+    }
+
+
+
+/* Header section */
+
+.report-iframe{
+    border:none; margin-top: 170px; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .report-iframe{
+        border:none; margin-top: 0px; 
+    }
+}
+
+
+.main-page-header-container{
+    width: 100%;
+    height: 90vh;
+}
+
+        /* Mazda Header Image */
+        .mazda-header{
+            position: relative;
+            background-image: url('/img/Mazda-Background-image.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center; 
+        }
+
+        /* Remax Header Image */
+        .remax-header{
+            position: relative;
+            background-image: url('/img/remax-header-img.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+.client-header-container  {
+    width: 600px;
+    position: absolute;
+    right:0;
+    bottom: 100px;
+}
+
+        @media only screen and (max-width: 1024px) {
+            .client-header-container  {
+                width: 400px;
+            }  
+        }
+
+        @media only screen and (max-width: 500px) {
+            .client-header-container  {
+                width: 350px;
+            }  
+        }
+
+        @media only screen and (max-width: 350px) {
+            .client-header-container  {
+                width: 280px;
+            }  
+        }
+
+.client-header-container h2 {
+	background-color: #000;
+	display: inline;
+    
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+
+
+
+
+.tagline-container{
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .tagline-container{
+        position: absolute;
+        bottom: auto;
+        top:80px;
+        left: 20px;
+        height: 150px;
+    }
+}
+
+
+.scroll-down-box{
+    position: absolute;
+    bottom: 20px;
+    width: 130px;
+    height: 75px;
+    left:50%;
+    text-align: center;
+    color: #fff;
+    z-index: 9999 !important;
+}
+
+        @media only screen and (max-width: 1024px) {
+            .scroll-down-box{
+                left:0px;
+            }
+            .scroll-down-box a{
+               font-size: 12px;
+            }
+        }
+
+.scroll-down-box a{
+    margin-top: -10px;
+    color: #fff;
+    width: 130px;
+    text-decoration: none;
+    font-family: Avenir;
+    z-index: 9999;
+}
+
+/* MAZDA PAGE CSS */
+
+.mazda-ovrview-section{
+    width: 100%;
+    margin: 0;
+}
+
+.mazda-ovrview-section-inner{
+    width: 80%;
+    margin:auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mazda-ovrview-section-inner{
+        width: 90%;
+    }
+}
+
+/* Report  Sub header  */ 
+
+
+
+.report-spesific-header{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+        @media only screen and (max-width: 1024px) {
+            .report-spesific-header{
+                margin-top: 150px;
+                margin-bottom: 50px;
+                width: 300px;
+            }
+        }
+
+.report-spesific-header h2 {
+	background-color: #000;
+	display: inline;
+    
+}
+
+
+
+
+/* Mazda Overview report Section */
+
+.two-col-2-row{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+    @media only screen and (max-width: 1024px) {
+        .two-col-2-row{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+    }
+
+
+
+.grid-box-one{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+   
+
+.mazda-digital-overview{
+    background-image: url('/img/Digital-overview-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+
+
+.mazda-alwsay-on-brand{
+    background-image: url('/img/always-on-brand-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+.mazda-on-page{
+    background-image: url('/img/mazda-on-page-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+
+.digital-search-pilot{
+    background-image: url('/img/Digital-search-pilot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+.box-inner-container{
+    position: absolute;
+    bottom: 30px;
+    width: 420px;
+    margin-left:40px
+}
+
+
+
+.box-inner-container h3 {
+	background-color: #fff;
+	display: inline;
+}
+
+
+.show-report-btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    float: right;
+    margin-right:150px;
+    position: relative;
+    border: #fff 1px solid;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+        @media only screen and (max-width: 1024px) {
+            .show-report-btn{
+                font-size: 14px;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .show-report-btn{
+                font-size: 11px;
+            }
+        }
+
+
+.show-report-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+
+
+
+/* Mazda Nameplate Breakout Section */
+
+.two-col-3-row{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+    @media only screen and (max-width: 1300px) {
+        .two-col-3-row{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+        }
+    }
+
+
+    @media only screen and (max-width: 800px) {
+        .two-col-3-row{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+    }
+
+
+
+
+.mazda-motor-names{
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mazda-motor-names{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mazda-motor-names{
+        font-size: 25px;
+    }
+}
+
+.mazda-name-btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    float: right;
+    margin-right:260px;
+    position: relative;
+    border: #fff 1px solid;
+    margin-top: -6px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+        @media only screen and (max-width: 1024px) {
+            .mazda-name-btn{
+                margin-top: -5px;
+                font-size: 14px;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .mazda-name-btn{
+                margin-top: 0px;
+                font-size: 11px;
+            }
+        }
+
+.mazda-name-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 1px solid;
+    cursor: pointer;
+}
+
+.mazda2{
+    background-image: url('/img/mazda-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+.mazda3{
+    background-image: url('/img/mazda-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+.mazdacx3{
+    background-image: url('/img/mazda-cx3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+.mazdacx30{
+    background-image: url('/img/mazda-cx30.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+.mazdacx30carbon{
+    background-image: url('/img/mazda-CX-30-Carbon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+
+.mazdacx5{
+    background-image: url('/img/mazda-cx5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+.mazdabt50{
+    background-image: url('/img/mazda-bt-50.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+
+
+/* Mazda Dealer Spesific Report Section */
+
+.dealer-spesific-section{
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}    
+
+        @media only screen and (max-width: 1024px) {
+            .dealer-spesific-section{
+                grid-template-columns: 1fr;
+            }  
+        }
+
+
+
+
+.dealer-box-1{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.dealer-box-1 img{
+    width: 600px;
+    margin-top:100px
+}
+
+    @media only screen and (max-width: 1024px) {
+
+        .dealer-box-1{
+            text-align: left;
+        } 
+
+        .dealer-box-1 img{
+            width: 70%;
+            margin-top:10px
+        } 
+    }
+
+    @media only screen and (max-width: 1024px) {
+
+        .dealer-box-1 img{
+            width: 90%;
+            margin-top:10px
+        } 
+    }
+
+
+.dealer-box-2{
+    width: 100%;
+    margin-top:50px
+}
+
+.dealer-box-2 ul li a{
+    color: #000 !important;
+    text-decoration: none;
+    font-family: Avenir;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.dealer-box-2 ul li a:hover{
+    color: #2abeb7 !important;
+}
+
+    @media only screen and (max-width: 1024px) {
+        .dealer-box-2 ul li a{
+            font-size: 20px;
+            line-height: 40px;
+        }
+    }
+
+/* GLOBAL DEEPER REPORT PAGES */
+
+
+
+.report-page-header{
+    width:100%;
+    text-align:center;
+    position:fixed;
+    z-index:9;
+    background-color:#fff;
+    padding-top:50px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1024px) {
+    .report-page-header{
+        width:100%;
+        text-align:center;
+        position:relative;
+        z-index:9;
+        background-color:#fff;
+        padding-top:130px
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .report-page-header{
+        width:100%;
+        text-align:center;
+        position:relative;
+        z-index:9;
+        background-color:#fff;
+        padding-top:80px
+    }
+    
+}
+
+
+
+
+
+/* ---------------- REMAX ------------------- */
+
+.remax-digital-overview{
+    background-image: url('/img/remax-digital-overview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 50px;
+    margin-top:100px
+}
+.remax-digital-overview-inner{
+    padding-top:230px;
+    padding-left:90px;
+    float: right;
+}
+
+.remax-overview-btn{
+    margin-top:-4px;
+}
+
+
+
+.recruitment-campaigns{
+    background-image: url('/img/RecruitmentCampaigns.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+
+.remax-always-on{
+    background-image: url('/img/Remax-always-on-campaigns.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+
+.remax-competition-campaigns{
+    background-image: url('/img/remax-competition-campaign-ing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+.remax-sign-you-want{
+    background-image: url('/img/remax-sign-you-want.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}
+
+
